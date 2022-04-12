@@ -1,8 +1,8 @@
 package cash
 
 import (
-	"github.com/solapi/solapi-go/apirequest"
-	"github.com/solapi/solapi-go/types"
+	"github.com/jjailbird/solapi-go/apirequest"
+	"github.com/jjailbird/solapi-go/types"
 )
 
 // Cash struct

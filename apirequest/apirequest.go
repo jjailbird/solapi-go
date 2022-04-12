@@ -17,7 +17,7 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/solapi/solapi-go/types"
+	"github.com/jjailbird/solapi-go/types"
 )
 
 const sdkVersion string = "GO-SDK v1.0"

@@ -1,9 +1,9 @@
 package solapi
 
 import (
-	"github.com/solapi/solapi-go/cash"
-	"github.com/solapi/solapi-go/messages"
-	"github.com/solapi/solapi-go/storage"
+	"github.com/jjailbird/solapi-go/cash"
+	"github.com/jjailbird/solapi-go/messages"
+	"github.com/jjailbird/solapi-go/storage"
 )
 
 // Client struct

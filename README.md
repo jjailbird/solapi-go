@@ -2,7 +2,7 @@
 
 [Site](https://www.solapi.com/) |
 [Docs](https://docs.solapi.com/) |
-[Examples](https://github.com/solapi/solapi-go/tree/master/_examples) |
+[Examples](https://github.com/jjailbird/solapi-go/tree/master/_examples) |
 
 문자 메시지 발송 및 조회 관련 기능들을 쉽게 사용하실 수 있도록 만들어진 SDK 입니다.
 
@@ -10,7 +10,7 @@
 
 ```go
 require (
-        github.com/solapi/solapi-go
+        github.com/jjailbird/solapi-go
 )
 
 func main() {
@@ -35,12 +35,12 @@ func main() {
 }
 ```
 
-[examples folder](https://github.com/solapi/solapi-go/tree/master/_examples)에서 자세한 예제파일들을 확인하세요.
+[examples folder](https://github.com/jjailbird/solapi-go/tree/master/_examples)에서 자세한 예제파일들을 확인하세요.
 
 ## Installation
 
 ```
-go get github.com/solapi/solapi-go
+go get github.com/jjailbird/solapi-go
 ```
 
 ## Configs
