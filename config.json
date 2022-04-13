@@ -1,6 +1,6 @@
 {
-  "APIKey": "",
-  "APISecret": "",
+  "APIKey": "APIKey",
+  "APISecret": "APISecret",
   "Protocol": "https",
   "Domain": "api.solapi.com",
   "Prefix": "",

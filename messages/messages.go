@@ -42,10 +42,12 @@ func (r *Messages) SendSimpleMessage(params map[string]interface{}) (types.Simpl
 	params["agent"] = agent
 
 	result := types.SimpleMessage{}
+
 	setCustomConfigErr := request.SetCustomConfig(r.Config)
 	if setCustomConfigErr != nil {
 		return result, setCustomConfigErr
 	}
+
 	err := request.POST("messages/v4/send", params, &result)
 	if err != nil {
 		return result, err

@@ -16,6 +16,16 @@ require (
 func main() {
 	client := solapi.NewClient()
 
+	// config.json 파일 없이 설정
+	client.Messages.Config = map[string]string{
+		"APIKey":    "APIKEY",
+		"APISecret": "APISECRET",
+		"Protocol":  "https",
+		"Domain":    "api.solapi.com",
+		"Prefix":    "",
+		"AppId":     "",
+	}
+
 	// Message Data
 	// 관련 파라미터들은 https://docs.solapi.com에서 확인 가능합니다.
 	message := make(map[string]interface{})

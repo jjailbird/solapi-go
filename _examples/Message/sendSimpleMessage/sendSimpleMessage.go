@@ -8,8 +8,16 @@ import (
 
 func main() {
 	client := solapi.NewClient()
-
 	// 메시지 데이터
+	client.Messages.Config = map[string]string{
+		"APIKey":    "APIKey",
+		"APISecret": "APISecret",
+		"Protocol":  "https",
+		"Domain":    "api.solapi.com",
+		"Prefix":    "",
+		"AppId":     "",
+	}
+
 	message := make(map[string]interface{})
 	message["to"] = "01000000000"
 	message["from"] = "029302266"
